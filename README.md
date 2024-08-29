@@ -1,6 +1,13 @@
 # PLP
 Principes des Langages de Programmation
 
+## Année: 2024-2025
+###  Sujets de travaux pratiques
+* [TP1](TP1/TP1.md)
+* [TP2](TP2/TP2.md)
+* [TP3](TP3/TP3.md)
+* [TP4](TP4/TP4.md)
+* [TP5](TP5/TP5.md)
 
 ## Author
 * John Samuel
