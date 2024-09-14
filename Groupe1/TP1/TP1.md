@@ -11,7 +11,7 @@ C et Python appartiennent à des paradigmes de programmation différents : C est
 
 2. **Manipulation des variables :** C exige une déclaration explicite des types de variables, tandis que Python utilise un typage dynamique et peut également supporter des annotations pour le typage statique.
 
-3. **Opérateurs :** Les deux langages utilisent des opérateurs arithmétiques et logiques, mais C propose des opérateurs bit à bit spécifiques, alors que Python les gère avec des méthodes intégrées et des modules.
+3. **Opérateurs :** Les deux langages utilisent des opérateurs arithmétiques, logiques, de comparaison, bit à bit, ainsi que des opérateurs d'assignation.
 
 4. **Boucles et structures de contrôle :** C utilise des accolades pour les blocs de code, tandis que Python utilise l'indentation. Les deux langages ont des boucles (`for`, `while`) et des structures conditionnelles (`if`, `else`).
 
@@ -476,9 +476,30 @@ $ python3 binaire.py
 2. **Assurez-vous que la représentation binaire est correcte** pour les valeurs testées : 0, 4096, 65536, 65535, 1024.
 3. **Testez le programme avec différentes valeurs** pour confirmer que les conversions sont correctement effectuées.
 
+## Exercice 1.10 [★★★]
 
-## Fichiers
+**Exercice : Comparaison entre C et Python**
 
+**Objectif :** Créer un document *comparaisons.md* qui résume les différences et similarités entre les langages C et Python en tenant compte des concepts suivants :
+
+1. **Bases de la programmation :** Compare l'utilisation des fonctions pour afficher des données (`printf` en C vs `print` en Python) et discute des différences de syntaxe et de gestion de la mémoire.
+
+2. **Manipulation des variables :** Compare la déclaration explicite des types en C avec le typage dynamique en Python, ainsi que l'utilisation des annotations pour le typage statique en Python.
+
+3. **Opérateurs :** Détaille les opérateurs arithmétiques, logiques, et bit à bit en C, et explique comment Python gère les opérations.
+
+4. **Boucles et structures de contrôle :** Compare l'utilisation des accolades pour délimiter les blocs de code en C avec l'indentation en Python, ainsi que les boucles (`for`, `while`) et les structures conditionnelles (`if`, `else`).
+
+5. **Conversion et formatage :** Compare les techniques de formatage et de conversion (comme la conversion en binaire) en C et Python, en mettant en évidence les différences entre les fonctions spécifiques en C et les f-strings en Python.
+
+**Instructions :**
+1. **Comparaison :** Pour chaque concept, fais une comparaison claire entre C et Python, en expliquant les similarités et les différences.
+2. **Exemples :** Inclue des exemples de code pour illustrer les différences et similarités lorsque cela est pertinent.
+
+
+## Fichiers à rendre
+
+- Fichiers md: comparaisons.md, CONTRIBUTORS.md, README.md
 - Fichiers C: *binaire.c, bonjour.c, boucles.c, calculs.c, cercle.c, controle.c, opérateurs.c, sizeof_types.c, variables.c*
 - Fichiers Python: *binaire.py, bonjour.py, boucles.py, calculs.py, cercle.py, controle.py, opérateurs.py, sizeof_types.py, variables.py*
 
