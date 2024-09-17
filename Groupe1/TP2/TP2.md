@@ -59,7 +59,7 @@ fish: Job 1, './a.out' terminated by signal SIGABRT (Abort)
 Pour déboguer ce code et trouver la source de l'erreur, nous devrons d'abord le compiler et ajouter des informations supplémentaires pour le débogage avec l'option `-ggdb3`.
 
 ```
-$ gcc --ggdb3 erreurs.c
+$ gcc -ggdb3 erreurs.c
 ```
 
 Nous allons maintenant exécuter le code avec gdb.
